@@ -28,76 +28,45 @@ label = "macro_kinesis";
 #binding-cells = <0>;
 bindings = <&kp LS(J)>, <&kp E>, <&kp S>, <&kp U>, <&kp S>;
 };
-
-
 macro_equal_space: macro_equal_space{
 compatible = "zmk,behavior-macro";
-wait-ms = <30>;
-tap-ms = <40>;
 label = "macro_equal_space";
 #binding-cells = <0>;
 bindings = <&kp SPACE>, <&kp EQUAL>, <&kp SPACE>;
 };
-
 macro_parenth_equal_great: macro_parenth_equal_great{
 compatible = "zmk,behavior-macro";
-wait-ms = <30>;
-tap-ms = <40>;
 label = "macro_parenth_equal_great";
 #binding-cells = <0>;
-bindings = <&kp LPAR>, <&kp RPAR>,<&kp EQUAL>,<&kp GT>,<&kp LBRC>,<&kp RBRC>, <&kp LEFT>;
+bindings = <&kp LPAR>, <&kp RPAR,&kp EQUAL,&kp GT,&kp LBRC,&kp RBRC>, <&kp LEFT>;
 };
-
 macro_const: macro_const{
 compatible = "zmk,behavior-macro";
-wait-ms = <30>;
-tap-ms = <40>;
 label = "macro_const";
 #binding-cells = <0>;
 bindings = <&kp C>, <&kp O>, <&kp N>, <&kp S>, <&kp T>, <&kp SPACE>;
 };
-
 macro_delete_whole_line: macro_delete_whole_line{
 compatible = "zmk,behavior-macro";
-wait-ms = <30>;
-tap-ms = <40>;
 label = "macro_delete_whole_line";
 #binding-cells = <0>;
-bindings = <&kp HOME>,<&kp HOME>, <&kp LS(END)>, <&kp DEL>;
+bindings = <&kp HOME,&kp HOME>, <&kp LS(END)>, <&kp DEL>;
 };
-
 macro_delete_till_start_line: macro_delete_till_start_line{
 compatible = "zmk,behavior-macro";
-wait-ms = <30>;
-tap-ms = <40>;
 label = "macro_delete_till_start_line";
 #binding-cells = <0>;
 bindings = <&kp LS(HOME)>, <&kp LS(HOME)>, <&kp BKSP>;
 };
-
 macro_delete_till_end_line: macro_delete_till_end_line{
 compatible = "zmk,behavior-macro";
-wait-ms = <30>;
-tap-ms = <40>;
 label = "macro_delete_till_end_line";
 #binding-cells = <0>;
 bindings = <&kp LS(END)>, <&kp LS(END)>, <&kp BKSP>;
 };
-
 macro_copy_whole_line: macro_copy_whole_line{
 compatible = "zmk,behavior-macro";
-wait-ms = <30>;
-tap-ms = <40>;
 label = "macro_copy_whole_line";
 #binding-cells = <0>;
-bindings = <&kp HOME>,<&kp HOME>, <&kp LS(END)>,<&kp LG(C)>;
-};
-
-macro_duplicate_whole_line_down: macro_copy_whole_line{
-compatible = "zmk,behavior-macro";
-wait-ms = <30>;
-tap-ms = <40>;
-label = "macro_copy_whole_line";
-#binding-cells = <0>;
-bindings = <&kp HOME>,<&kp HOME>, <&kp LS(END)>, <&kp LG(C)>, <&kp END>, <&kp RETURN>, <&kp LG(V)>;
+bindings = <&kp HOME,&kp HOME>, <&kp LS,&kp(END) LG(C)>;
 };
