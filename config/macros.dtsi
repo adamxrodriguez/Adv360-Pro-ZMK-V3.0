@@ -34,12 +34,7 @@ label = "macro_equal_space";
 #binding-cells = <0>;
 bindings = <&kp SPACE>, <&kp EQUAL>, <&kp SPACE>;
 };
-macro_parenth_equal_great: macro_parenth_equal_great{
-compatible = "zmk,behavior-macro";
-label = "macro_parenth_equal_great";
-#binding-cells = <0>;
-bindings = <&kp LPAR>, <&kp RPAR,&kp EQUAL,&kp GT,&kp LBRC,&kp RBRC>, <&kp LEFT>;
-};
+
 macro_const: macro_const{
 compatible = "zmk,behavior-macro";
 label = "macro_const";
