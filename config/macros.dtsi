@@ -63,12 +63,12 @@ macro_copy_whole_line: macro_copy_whole_line{
 compatible = "zmk,behavior-macro";
 label = "macro_copy_whole_line";
 #binding-cells = <0>;
-bindings = <&kp HOME>, <&kp LS(END)>, <LG(C)>;
+bindings = <&kp HOME>, <&kp LS(END)>, <&kp LG(C)>;
 };
 
 macro_duplicate_whole_line: macro_duplicate_whole_line{
 compatible = "zmk,behavior-macro";
 label = "macro_duplicate_whole_line";
 #binding-cells = <0>;
-bindings = <&kp HOME>, <&kp LS(END)>, <LG(C)>, <&kp END>, <&kp ENTER>, <&kp LG(V)>;
+bindings = <&kp HOME>, <&kp LS(END)>, <&kp LG(C)>, <&kp END>, <&kp ENTER>, <&kp LG(V)>;
 };
