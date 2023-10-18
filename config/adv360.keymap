@@ -19,7 +19,7 @@
 #include <dt-bindings/zmk/backlight.h>
 
 #define COPY_LINE    &kp LGUI(LEFT) &kp LGUI(LS(RIGHT) &kp LGUI(C)
-#define DUPLICATE_LINE    &kp LGUI(LEFT) &kp LGUI(LS(RIGHT) &kp LGUI(C) &kp RIGHT &kp ENTER &kp LGUI(V)
+#define DUPLICATE_LINE    &kp LGUI(LEFT) &kp LGUI(LS(RIGHT)) &kp LGUI(C) &kp RIGHT &kp ENTER &kp LGUI(V)
 
 / {
   behaviors {
