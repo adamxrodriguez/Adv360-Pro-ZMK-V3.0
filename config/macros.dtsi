@@ -45,7 +45,7 @@ macro_delete_whole_line: macro_delete_whole_line{
 compatible = "zmk,behavior-macro";
 label = "macro_delete_whole_line";
 #binding-cells = <0>;
-bindings = <&kp HOME,&kp HOME>, <&kp LS(END)>, <&kp DEL>;
+bindings = <&kp HOME>, <&kp LS(END)>, <&kp DEL>;
 };
 macro_delete_till_start_line: macro_delete_till_start_line{
 compatible = "zmk,behavior-macro";
