@@ -34,7 +34,6 @@ label = "macro_equal_space";
 #binding-cells = <0>;
 bindings = <&kp SPACE>, <&kp EQUAL>, <&kp SPACE>;
 };
-
 macro_const: macro_const{
 compatible = "zmk,behavior-macro";
 label = "macro_const";
@@ -65,7 +64,6 @@ label = "macro_copy_whole_line";
 #binding-cells = <0>;
 bindings = <&kp HOME>, <&kp LS(END)>, <&kp LG(C)>;
 };
-
 macro_duplicate_whole_line: macro_duplicate_whole_line{
 compatible = "zmk,behavior-macro";
 label = "macro_duplicate_whole_line";
