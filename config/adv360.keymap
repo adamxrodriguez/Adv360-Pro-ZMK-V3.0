@@ -11,8 +11,7 @@
  * This file was generated automatically. You may or may not want to
  * edit it directly.
  */
-#include </cust_behaviors.json>
-#include </cust_keycodes.json>
+
 #include <behaviors.dtsi>
 #include <dt-bindings/zmk/keys.h>
 #include <dt-bindings/zmk/bt.h>
