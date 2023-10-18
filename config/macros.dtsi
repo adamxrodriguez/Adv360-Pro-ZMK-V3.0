@@ -80,11 +80,11 @@ label = "macro_delete_till_end_line";
 #binding-cells = <0>;
 bindings = <&kp LS(END)>, <&kp LS(END)>, <&kp BKSP>;
 };
-macro_select_whole_line: macro_select_whole_line{
+macro_copy_whole_line: macro_copy_whole_line{
 compatible = "zmk,behavior-macro";
 wait-ms = <30>;
 tap-ms = <40>;
-label = "macro_select_whole_line";
+label = "macro_copy_whole_line";
 #binding-cells = <0>;
 bindings = <&kp HOME>,<&kp HOME>, <&kp LS(END)>,<&kp LG(C)>;
 };
