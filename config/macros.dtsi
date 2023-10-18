@@ -70,3 +70,10 @@ label = "macro_duplicate_whole_line";
 #binding-cells = <0>;
 bindings = <&kp LG(LEFT)>, <&kp LS(END)>, <&kp LG(C)>, <&kp LG(RIGHT)>, <&kp ENTER>, <&kp LG(V)>;
 };
+
+macro_comment_out: macro_comment_out{
+compatible = "zmk,behavior-macro";
+label = "macro_comment_out";
+#binding-cells = <0>;
+bindings = <&kp LG(SLASH)>;
+};
