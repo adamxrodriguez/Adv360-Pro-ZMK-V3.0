@@ -86,5 +86,5 @@ wait-ms = <30>;
 tap-ms = <40>;
 label = "macro_select_whole_line";
 #binding-cells = <0>;
-bindings = <&kp HOME>,<&kp HOME>, <&kp LS(END)>,<&kp LGUI(C)>;
+bindings = <&kp HOME>,<&kp HOME>, <&kp LS(END)>,<&kp LG(C)>;
 };
