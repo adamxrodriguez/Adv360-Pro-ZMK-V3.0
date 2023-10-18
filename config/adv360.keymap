@@ -18,6 +18,9 @@
 #include <dt-bindings/zmk/rgb.h>
 #include <dt-bindings/zmk/backlight.h>
 
+#define COPY_LINE    &kp LGUI(LEFT) &kp LGUI(LS(RIGHT) &kp LGUI(C)
+#define DUPLICATE_LINE    &kp LGUI(LEFT) &kp LGUI(LS(RIGHT) &kp LGUI(C) &kp RIGHT &kp ENTER &kp LGUI(V)
+
 / {
   behaviors {
     #include "macros.dtsi"
