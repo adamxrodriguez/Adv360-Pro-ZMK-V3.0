@@ -51,17 +51,24 @@ macro_delete_till_start_line: macro_delete_till_start_line{
 compatible = "zmk,behavior-macro";
 label = "macro_delete_till_start_line";
 #binding-cells = <0>;
-bindings = <&kp LS(HOME)>, <&kp LS(HOME)>, <&kp BKSP>;
+bindings = <&kp LS(HOME)>, <&kp LS(HOME)>, <&kp BACKSPACE>;
 };
 macro_delete_till_end_line: macro_delete_till_end_line{
 compatible = "zmk,behavior-macro";
 label = "macro_delete_till_end_line";
 #binding-cells = <0>;
-bindings = <&kp LS(END)>, <&kp LS(END)>, <&kp BKSP>;
+bindings = <&kp LS(END)>, <&kp LS(END)>, <&kp BACKSPACE>;
 };
 macro_copy_whole_line: macro_copy_whole_line{
 compatible = "zmk,behavior-macro";
 label = "macro_copy_whole_line";
 #binding-cells = <0>;
-bindings = <&kp HOME,&kp HOME>, <&kp LS,&kp(END) LG(C)>;
+bindings = <&kp HOME>, <&kp LS(END)>, <LG(C)>;
+};
+
+macro_duplicate_whole_line: macro_duplicate_whole_line{
+compatible = "zmk,behavior-macro";
+label = "macro_duplicate_whole_line";
+#binding-cells = <0>;
+bindings = <&kp HOME>, <&kp LS(END)>, <LG(C)>, <&kp END>, <&kp ENTER>, <&kp LG(V)>;
 };
