@@ -1,9 +1,3 @@
 [
-  copy_whole_line_keycode: copy_whole_line_keycode{
-compatible = "zmk,behavior-macro";
-label = "copy_whole_line_keycode";
-#binding-cells = <0>;
-bindings = <&kp LG(LEFT)>, <&kp LG(LS(RIGHT))>, <&kp LG(C)>;
-};
 
 ]
