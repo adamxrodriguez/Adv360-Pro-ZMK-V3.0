@@ -4,7 +4,6 @@ label = "macro_kinesis";
 #binding-cells = <0>;
 bindings = <&kp LS(J)>, <&kp E>, <&kp S>, <&kp U>, <&kp S>;
 };
-
 macro_const: macro_const{
 compatible = "zmk,behavior-macro";
 label = "macro_const";
