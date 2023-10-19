@@ -40,7 +40,7 @@
             bindings = <
  &kp EQUAL        &kp N1    &kp N2    &kp N3     &kp N4  &kp N5               &tog 0                                                                                        &tog 1  &kp N6  &kp N7     &kp N8    &kp N9         &kp N0  &kp MINUS
    &kp TAB         &kp Q     &kp W     &kp F      &kp P   &kp B              &kp TAB                                                                                         &none   &kp J   &kp L      &kp U     &kp Y  &kp SEMICOLON   &kp BSLH
-   &kp ESC         &kp A     &kp R     &kp S      &kp T   &kp G            &kp GRAVE        &kp LG     &kp LC                  &kp RIGHT_ALT  &kp RIGHT_GUI  &kp RSHFT((RG(RIGHT))   &kp M   &kp N      &kp E     &kp I          &kp O    &kp SQT
+   &kp ESC         &kp A     &kp R     &kp S      &kp T   &kp G            &kp GRAVE        &kp LG     &kp LC                  &kp RIGHT_ALT  &kp RIGHT_GUI  &none   &kp M   &kp N      &kp E     &kp I          &kp O    &kp SQT
  &kp LSHFT         &kp X     &kp C     &kp D      &kp V   &kp Z                                     &kp LG(C)                      &kp PG_UP                                         &kp K   &kp H  &kp COMMA   &kp DOT       &kp FSLH  &kp RSHFT
      &mo 1  &kp LEFT_ALT  &kp CAPS  &kp LEFT  &kp RIGHT                     &kp BSPC  &lt 1 RETURN  &kp LG(V)                      &kp PG_DN      &kp ENTER              &kp SPACE          &kp UP   &kp DOWN  &kp LBKT       &kp RBKT      &mo 1
             >;
