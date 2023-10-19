@@ -35,9 +35,9 @@
 	},
 	{
 		"names": [
-			"LS(LG(LEFT))"
+			"MOVE_TO_LEFT_WINDOW"
 		],
-		"description": "MOVE_TO_LEFT_WINDOW",
+		"description": "LS(LG(LEFT))",
 		"clarify": false,
 		"documentation": "",
 		"os": {
