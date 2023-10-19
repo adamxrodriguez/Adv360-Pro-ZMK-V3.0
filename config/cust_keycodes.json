@@ -37,7 +37,7 @@
 		"names": [
 			"LS(LG(LEFT))"
 		],
-		"description": "LS(LG(LEFT))",
+		"description": "MOVE_TO_LEFT_WINDOW",
 		"clarify": false,
 		"documentation": "",
 		"os": {
