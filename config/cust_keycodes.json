@@ -1,9 +1,9 @@
 [
 	{
 		"names": [
-			"LS(LG(LEFT))"
+			"RALT(RG(LEFT))"
 		],
-		"description": "LS(LG(LEFT))",
+		"description": "RALT(RG(LEFT))",
 		"clarify": false,
 		"documentation": "",
 		"os": {
@@ -18,9 +18,9 @@
 	},
 	{
 		"names": [
-			"LS(LG(RIGHT))"
+			"RALT(RG(RIGHT))"
 		],
-		"description": "LS(LG(RIGHT))",
+		"description": "RALT(RG(RIGHT))",
 		"clarify": false,
 		"documentation": "",
 		"os": {
