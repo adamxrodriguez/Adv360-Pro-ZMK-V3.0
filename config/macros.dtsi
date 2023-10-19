@@ -16,18 +16,7 @@ label = "macro_delete_whole_line";
 #binding-cells = <0>;
 bindings = <&kp HOME>, <&kp LS(END)>, <&kp DEL>;
 };
-macro_delete_till_start_line: macro_delete_till_start_line{
-compatible = "zmk,behavior-macro";
-label = "macro_delete_till_start_line";
-#binding-cells = <0>;
-bindings = <&kp LS(HOME)>, <&kp LS(HOME)>, <&kp BACKSPACE>;
-};
-macro_delete_till_end_line: macro_delete_till_end_line{
-compatible = "zmk,behavior-macro";
-label = "macro_delete_till_end_line";
-#binding-cells = <0>;
-bindings = <&kp LS(END)>, <&kp LS(END)>, <&kp BACKSPACE>;
-};
+
 macro_copy_whole_line: macro_copy_whole_line{
 compatible = "zmk,behavior-macro";
 label = "macro_copy_whole_line";
