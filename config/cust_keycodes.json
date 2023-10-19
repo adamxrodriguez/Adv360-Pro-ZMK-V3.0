@@ -32,39 +32,5 @@
 		},
 		"footnotes": {},
 		"type": "UD"
-	},
-	{
-		"names": [
-			"RSHFT(RCTRL(F5))"
-		],
-		"description": "RSHFT(RCTRL(F5))",
-		"clarify": false,
-		"documentation": "",
-		"os": {
-			"windows": true,
-			"linux": true,
-			"android": true,
-			"macos": true,
-			"ios": true
-		},
-		"footnotes": {},
-		"type": "UD"
-	},
-	{
-		"names": [
-			"RALT(F5)"
-		],
-		"description": "RALT(F5)",
-		"clarify": false,
-		"documentation": "",
-		"os": {
-			"windows": true,
-			"linux": true,
-			"android": true,
-			"macos": true,
-			"ios": true
-		},
-		"footnotes": {},
-		"type": "UD"
 	}
 ]
