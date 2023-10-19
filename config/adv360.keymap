@@ -54,7 +54,7 @@
             bindings = <
    &kp LS(LA(DOWN))                 &bt BT_SEL 0            &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3  &bt BT_SEL 4                 &trans                                                                                  &trans   &none       &none       &none   &none   &none   &none
  &macro_comment_out                        &kp COPY_LINE                   &none         &none         &none         &none            &bootloader                                                                             &bootloader   &none       &none       &none   &none   &none   &none
-      &kp LS(LG(K))                        &hm LGUI A                   &none         &none         &none         &none                  &none   &none           &none                  &bt BT_CLR       &none  &rgb_ug RGB_MEFS_CMD 5   &none       &none       &none   &none   &none   &none
+      &kp LS(LG(K))                        &kp A                   &none         &none         &none         &none                  &none   &none           &none                  &bt BT_CLR       &none  &rgb_ug RGB_MEFS_CMD 5   &none       &none       &none   &none   &none   &none
       &kp LA(LC(L))     &macro_delete_whole_line  &macro_copy_whole_line         &none         &none         &none                                     &bt BT_CLR                       &none                                       &none       &none       &none   &none   &none   &none
               &none  &macro_duplicate_whole_line                   &none    &bt BT_PRV    &bt BT_NXT                                &none   &none  &macro_kinesis                       &none  &bl BL_TOG         &rgb_ug RGB_TOG          &bl BL_INC  &bl BL_DEC   &none   &none   &none
             >;
