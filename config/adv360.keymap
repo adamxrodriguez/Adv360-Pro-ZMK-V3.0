@@ -40,9 +40,9 @@
             bindings = <
  &kp EQUAL          &kp N1    &kp N2    &kp N3     &kp N4  &kp N5               &tog 0                                                                            &tog 1  &kp N6  &kp N7     &kp N8    &kp N9         &kp N0  &kp MINUS
    &kp TAB           &kp Q     &kp W     &kp F      &kp P   &kp B              &kp TAB                                                                             &none   &kp J   &kp L      &kp U     &kp Y  &kp SEMICOLON   &kp BSLH
-   &kp ESC  &hm LEFT_GUI A     &kp R     &kp S      &kp T   &kp G            &kp GRAVE      &kp LGUI  &kp LCTRL                  &kp RIGHT_ALT  &kp RIGHT_GUI      &none   &kp M   &kp N      &kp E     &kp I          &kp O    &kp SQT
- &kp LSHFT           &kp X     &kp C     &kp D      &kp V   &kp Z                                     &kp LG(C)                      &kp LG(LEFT), LS((LG(RIGHT))), LG(C)    &kp K   &kp H  &kp COMMA   &kp DOT       &kp FSLH  &kp RSHFT
-     &mo 1    &kp GRAVE  &kp LEFT_ALT  &kp LEFT  &kp RIGHT                     &kp BSPC  &lt 1 RETURN  &kp LG(V)                      &kp LG(LEFT) LS((LG(RIGHT))) LG(C) ENTER LG(V) &kp ENTER  &kp SPACE          &kp UP   &kp DOWN  &kp LBKT       &kp RBKT      &mo 1
+   &kp ESC  &hm LEFT_GUI A     &hm LCTRL R     &hm LEFT_ALT S      &hm LEFT_SHIFT T   &kp G            &kp GRAVE      &kp LGUI  &kp LCTRL                  &kp RIGHT_ALT  &kp RIGHT_GUI      &none   &kp M   &hm RIGHT_SHIFT N      &hm RIGHT_ALT E     &hm RCTRL I          &hm RG O    &kp SQT
+ &kp LSHFT           &kp X     &kp C     &kp D      &kp V   &kp Z                                     &kp LG(C)                      &kp (LG(LEFT), LS((LG(RIGHT))), LG(C))   &kp K   &kp H  &kp COMMA   &kp DOT       &kp FSLH  &kp RSHFT
+     &mo 1    &kp GRAVE  &kp LEFT_ALT  &kp LEFT  &kp RIGHT                     &kp BSPC  &lt 1 RETURN  &kp LG(V)                      &kp (LG(LEFT) LS((LG(RIGHT))) LG(C) ENTER LG(V)) &kp ENTER  &kp SPACE          &kp UP   &kp DOWN  &kp LBKT       &kp RBKT      &mo 1
             >;
         };
 
@@ -50,8 +50,8 @@
             bindings = <
    &kp LS(LA(DOWN))                 &bt BT_SEL 0            &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3  &bt BT_SEL 4                 &trans                                                                                        &trans       &none         &none         &none   &none                 &none              &none
  &macro_comment_out                        &none                   &none        &kp N7        &kp N8        &kp N9            &bootloader                                                                                   &bootloader       &none         &none         &none   &none                 &none              &none
-      &kp LS(LG(K))                        &kp CAPS            &kp N0        &kp N4        &kp N5        &kp N6                  &none      &none           &none                  &bt BT_CLR          &none  &rgb_ug RGB_MEFS_CMD 5       &none         &none         &none   &none                 &none              &none
-      &kp LA(LC(L))                 &none             &none        &kp N1  &kp NUMBER_2        &kp N3                                        &bt BT_CLR                       &none                                         &kp C_MUTE  &kp C_VOL_UP  &kp C_VOL_DN   &none         &kp RS(RC(F5))         &kp RA(F5)
+      &kp LS(LG(K))                        &none            &kp N0        &kp N4        &kp N5        &kp N6                  &none      &none           &none                  &bt BT_CLR          &none  &rgb_ug RGB_MEFS_CMD 5       &none         &none         &none   &none                 &none              &none
+      &kp LA(LC(L))                 &none            &kp CAPS        &kp N1  &kp NUMBER_2        &kp N3                                        &bt BT_CLR                       &none                                         &kp C_MUTE  &kp C_VOL_UP  &kp C_VOL_DN   &none         &kp RS(RC(F5))         &kp RA(F5)
       &none  &kp LEFT                  &kp RIGHT    &bt BT_PRV    &bt BT_NXT                              &kp DEL  &kp SPACE  &macro_kinesis                       &none  &kp BACKSPACE               &kp SPACE              &kp C_BRI_UP  &kp C_BRI_DN   &kp RA(RG(LEFT))  &kp RA(RG(RIGHT))      &none
             >;
         };
