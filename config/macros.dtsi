@@ -1,8 +1,26 @@
-macro_new_copy_line: macro_new_copy_line{
+macro_copy_line: macro_copy_line{
 compatible = "zmk,behavior-macro";
-label = "macro_new_copy_line";
+label = "macro_copy_line";
 #binding-cells = <0>;
-bindings = <&kp LG(LEFT)>, <&kp LS(LG(RIGHT))>, <&kp LG(C)>;
+bindings = <&kp LG(LEFT)>, <&kp LS(LG(RIGHT))>, <&kp LG(C)> , <&kp RIGHT>;
+};
+macro_super_console_log: macro_super_console_log{
+compatible = "zmk,behavior-macro";
+label = "macro_super_console_log";
+#binding-cells = <0>;
+bindings = <&kp LA(LC(L))>;
+};
+macro_vs_duplicate_line: macro_vs_duplicate_line{
+compatible = "zmk,behavior-macro";
+label = "macro_vs_duplicate_line";
+#binding-cells = <0>;
+bindings = <&kp LS(LA(DOWN))>;
+};
+macro_vs_delete_line: macro_vs_delete_line{
+compatible = "zmk,behavior-macro";
+label = "macro_vs_delete_line";
+#binding-cells = <0>;
+bindings = <&kp LS(LG(K))>;
 };
 macro_kinesis: macro_kinesis{
 compatible = "zmk,behavior-macro";
@@ -16,27 +34,40 @@ label = "macro_const";
 #binding-cells = <0>;
 bindings = <&kp C>, <&kp O>, <&kp N>, <&kp S>, <&kp T>, <&kp SPACE>;
 };
-macro_delete_whole_line: macro_delete_whole_line{
+
+macro_uni_duplicate_line: macro_uni_duplicate_line{
 compatible = "zmk,behavior-macro";
-label = "macro_delete_whole_line";
+label = "macro_uni_duplicate_line";
 #binding-cells = <0>;
-bindings = <&kp HOME>, <&kp LS(END)>, <&kp DEL>;
+bindings = <&kp LG(LEFT)>, <&kp LS(LG(RIGHT))>, <&kp LG(C)>, <&kp LG(RIGHT)>, <&kp ENTER>, <&kp LG(V)>;
 };
-macro_copy_whole_line: macro_copy_whole_line{
+macro_uni_delete_whole_line: macro_uni_delete_whole_line{
 compatible = "zmk,behavior-macro";
-label = "macro_copy_whole_line";
+label = "macro_uni_delete_whole_line";
 #binding-cells = <0>;
-bindings = <&kp LG(LEFT)>, <&kp LS(END)>, <&kp LG(C)>;
-};
-macro_duplicate_whole_line: macro_duplicate_whole_line{
-compatible = "zmk,behavior-macro";
-label = "macro_duplicate_whole_line";
-#binding-cells = <0>;
-bindings = <&kp LG(LEFT)>, <&kp LS(END)>, <&kp LG(C)>, <&kp LG(RIGHT)>, <&kp ENTER>, <&kp LG(V)>;
+bindings = <&kp LG(LEFT)>, <&kp LS(LG(RIGHT))>, <&kp DEL>;
 };
 macro_comment_out: macro_comment_out{
 compatible = "zmk,behavior-macro";
 label = "macro_comment_out";
 #binding-cells = <0>;
 bindings = <&kp LG(SLASH)>;
+};
+macro_copy: macro_copy{
+compatible = "zmk,behavior-macro";
+label = "macro_copy";
+#binding-cells = <0>;
+bindings = <&kp LG(C)>;
+};
+macro_paste: macro_paste{
+compatible = "zmk,behavior-macro";
+label = "macro_paste";
+#binding-cells = <0>;
+bindings = <&kp LG(V)>;
+};
+macro_delete_all_back: macro_delete_all_back{
+compatible = "zmk,behavior-macro";
+label = "macro_delete_all_back";
+#binding-cells = <0>;
+bindings = <&kp LS(LG(LEFT))>, <&kp DEL>;
 };
