@@ -1,8 +1,20 @@
+macro_next_change: macro_next_change{
+compatible = "zmk,behavior-macro";
+label = "macro_next_change";
+#binding-cells = <0>;
+bindings = <&kp RA(F5)>;
+};
+macro_prev_change: macro_prev_change{
+compatible = "zmk,behavior-macro";
+label = "macro_prev_change";
+#binding-cells = <0>;
+bindings = <&kp RS(RC(F5))>;
+};
 macro_copy_line: macro_copy_line{
 compatible = "zmk,behavior-macro";
 label = "macro_copy_line";
 #binding-cells = <0>;
-bindings = <&kp LG(LEFT)>, <&kp LS(LG(RIGHT))>, <&kp LG(C)> , <&kp RIGHT>;
+bindings = <&kp LG(LEFT)>, <&kp LS(LG(RIGHT))>, <&kp LG(C)>, <&kp RIGHT>;
 };
 macro_super_console_log: macro_super_console_log{
 compatible = "zmk,behavior-macro";
@@ -34,7 +46,6 @@ label = "macro_const";
 #binding-cells = <0>;
 bindings = <&kp C>, <&kp O>, <&kp N>, <&kp S>, <&kp T>, <&kp SPACE>;
 };
-
 macro_uni_duplicate_line: macro_uni_duplicate_line{
 compatible = "zmk,behavior-macro";
 label = "macro_uni_duplicate_line";
