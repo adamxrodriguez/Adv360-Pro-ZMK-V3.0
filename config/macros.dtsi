@@ -22,7 +22,7 @@ macro_prev_change: macro_prev_change{
 compatible = "zmk,behavior-macro";
 label = "macro_prev_change";
 #binding-cells = <0>;
-bindings = <&kp RS(RC(F5))>;
+bindings = <&kp RS(RA(F5))>;
 };
 macro_copy_line: macro_copy_line{
 compatible = "zmk,behavior-macro";
