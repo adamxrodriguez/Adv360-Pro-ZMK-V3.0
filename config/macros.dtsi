@@ -2,19 +2,19 @@ macro_blue: macro_blue{
 compatible = "zmk,behavior-macro";
 label = "macro_blue";
 #binding-cells = <0>;
-bindings = <&kp B>, <&kp L>, <&kp U>, <&kp E>, <&kp ->;
+bindings = <&kp B>, <&kp L>, <&kp U>, <&kp E>, <&kp MINUS>;
 };
 macro_green: macro_green{
 compatible = "zmk,behavior-macro";
 label = "macro_green";
 #binding-cells = <0>;
-bindings = <&kp G>, <&kp R>, <&kp E>, <&kp E>, <&kp N>, <&kp ->;
+bindings = <&kp G>, <&kp R>, <&kp E>, <&kp E>, <&kp N>, <&kp MINUS>;
 };
 macro_purple: macro_purple{
 compatible = "zmk,behavior-macro";
 label = "macro_purple";
 #binding-cells = <0>;
-bindings = <&kp P>, <&kp U>, <&kp R>, <&kp P>, <&kp L>, <&kp E>, <&kp ->;
+bindings = <&kp P>, <&kp U>, <&kp R>, <&kp P>, <&kp L>, <&kp E>, <&kp MINUS>;
 };
 macro_cut: macro_cut{
 compatible = "zmk,behavior-macro";
