@@ -2,19 +2,19 @@ macro_cut: macro_cut{
 compatible = "zmk,behavior-macro";
 label = "macro_cut";
 #binding-cells = <0>;
-bindings = <&kp LC(X)>;
+bindings = <&kp LG(X)>;
 };
 macro_force_quit: macro_force_quit{
 compatible = "zmk,behavior-macro";
 label = "macro_force_quit";
 #binding-cells = <0>;
-bindings = <&kp LC(LS(ESC))>;
+bindings = <&kp LG(LS(ESC))>;
 };
 macro_incognito: macro_incognito{
 compatible = "zmk,behavior-macro";
 label = "macro_incognito";
 #binding-cells = <0>;
-bindings = <&kp LC(LS(N))>;
+bindings = <&kp LG(LS(N))>;
 };
 macro_inspector: macro_inspector{
 compatible = "zmk,behavior-macro";
