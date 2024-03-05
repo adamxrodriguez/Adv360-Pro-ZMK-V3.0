@@ -1,3 +1,21 @@
+macro_cut: macro_cut{
+compatible = "zmk,behavior-macro";
+label = "macro_cut";
+#binding-cells = <0>;
+bindings = <&kp LCMD (X)>;
+};
+macro_force_quit: macro_force_quit{
+compatible = "zmk,behavior-macro";
+label = "macro_force_quit";
+#binding-cells = <0>;
+bindings = <&kp ESC>;
+};
+macro_incognito: macro_incognito{
+compatible = "zmk,behavior-macro";
+label = "macro_incognito";
+#binding-cells = <0>;
+bindings = <&kp LCMD(LSHFT(N))>;
+};
 macro_inspector: macro_inspector{
 compatible = "zmk,behavior-macro";
 label = "macro_inspector";
