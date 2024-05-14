@@ -148,9 +148,9 @@ label = "macro_delete_all_back";
 #binding-cells = <0>;
 bindings = <&kp LS(LG(LEFT))>, <&kp DEL>;
 };
-macro_kinesis: macro_kinesiss{
+macro_kinesis: macro_kinesis{
 compatible = "zmk,behavior-macro";
 label = "macro_kinesis";
 #binding-cells = <0>;
-bindings = <&kp LS(J)>, <&kp 7>, <&kp E>, <&kp 7>, <&kp S>, <&kp 7>, <&kp U>, <&kp S>;
+bindings = <&kp LS(J)>, <&kp NUMBER_7>, <&kp E>, <&kp NUMBER_7>, <&kp S>, <&kp NUMBER_7>, <&kp U>, <&kp S>;
 };
