@@ -152,5 +152,5 @@ macro_kinesiss: macro_kinesiss{
 compatible = "zmk,behavior-macro";
 label = "macro_kinesiss";
 #binding-cells = <0>;
-bindings = <&kp LS(J)>, <&kp NUMBER_7>, <&kp E>, <&kp NUMBER_7>, <&kp S>, <&kp NUMBER_7>, <&kp U>, <&kp S>;
+bindings = <&kp LS(B)>, <&kp NUMBER_3>, <&kp L>, <&kp NUMBER_3>, <&kp E>, <&kp NUMBER_3>, <&kp S>, <&kp LS(H);
 };
