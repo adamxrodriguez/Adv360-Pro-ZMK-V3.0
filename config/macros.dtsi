@@ -1,36 +1,156 @@
-  macro_quotes: macro_quotes {
-    compatible = "zmk,behavior-macro";
-    label = "macro_quotes";
-    #binding-cells = <0>;
-    bindings = <&kp SQT>, <&kp SQT>, <&kp LEFT>;
-  };
-  macro_dquotes: macro_dquotes {
-    compatible = "zmk,behavior-macro";
-    label = "macro_dquotes";
-    #binding-cells = <0>;
-    bindings = <&kp DQT>, <&kp DQT>, <&kp LEFT>;
-  };
-  macro_braces: macro_braces {
-    compatible = "zmk,behavior-macro";
-    label = "macro_braces";
-    #binding-cells = <0>;
-    bindings = <&kp LBRC>, <&kp RBRC>, <&kp LEFT>;
-  };
-  macro_parens: macro_parens {
-    compatible = "zmk,behavior-macro";
-    label = "macro_parens";
-    #binding-cells = <0>;
-    bindings = <&kp LPAR>, <&kp RPAR>, <&kp LEFT>;
-  };
-  macro_brackets: macro_brackets {
-    compatible = "zmk,behavior-macro";
-    label = "macro_brackets";
-    #binding-cells = <0>;
-    bindings = <&kp LBKT>, <&kp RBKT>, <&kp LEFT>;
-  };
-  macro_kinesis: macro_kinesis {
-    compatible = "zmk,behavior-macro";
-    label = "macro_kinesis";
-    #binding-cells = <0>;
-    bindings = <&kp LS(K)>, <&kp I>, <&kp N>, <&kp E>, <&kp S>, <&kp I>, <&kp S>;
-  };
+macro_blue: macro_blue{
+compatible = "zmk,behavior-macro";
+label = "macro_blue";
+#binding-cells = <0>;
+bindings = <&kp B>, <&kp L>, <&kp U>, <&kp E>, <&kp MINUS>;
+};
+macro_green: macro_green{
+compatible = "zmk,behavior-macro";
+label = "macro_green";
+#binding-cells = <0>;
+bindings = <&kp G>, <&kp R>, <&kp E>, <&kp E>, <&kp N>, <&kp MINUS>;
+};
+macro_purple: macro_purple{
+compatible = "zmk,behavior-macro";
+label = "macro_purple";
+#binding-cells = <0>;
+bindings = <&kp P>, <&kp U>, <&kp R>, <&kp P>, <&kp L>, <&kp E>, <&kp MINUS>;
+};
+macro_cut: macro_cut{
+compatible = "zmk,behavior-macro";
+label = "macro_cut";
+#binding-cells = <0>;
+bindings = <&kp LG(X)>;
+};
+macro_force_quit: macro_force_quit{
+compatible = "zmk,behavior-macro";
+label = "macro_force_quit";
+#binding-cells = <0>;
+bindings = <&kp LG(LS(ESC))>;
+};
+macro_new_window: macro_new_window{
+compatible = "zmk,behavior-macro";
+label = "macro_new_window";
+#binding-cells = <0>;
+bindings = <&kp LG(LS(N))>;
+};
+macro_incognito: macro_incognito{
+compatible = "zmk,behavior-macro";
+label = "macro_incognito";
+#binding-cells = <0>;
+bindings = <&kp LG(LS(N))>;
+};
+macro_inspector: macro_inspector{
+compatible = "zmk,behavior-macro";
+label = "macro_inspector";
+#binding-cells = <0>;
+bindings = <&kp LG(LA(I))>;
+};
+macro_move_to_left_window: macro_move_to_left_window{
+compatible = "zmk,behavior-macro";
+label = "macro_move_to_left_window";
+#binding-cells = <0>;
+bindings = <&kp RA(RG(LEFT))>;
+};
+macro_move_to_right_window: macro_move_to_right_window{
+compatible = "zmk,behavior-macro";
+label = "macro_move_to_right_window";
+#binding-cells = <0>;
+bindings = <&kp RA(RG(RIGHT))>;
+};
+macro_next_change: macro_next_change{
+compatible = "zmk,behavior-macro";
+label = "macro_next_change";
+#binding-cells = <0>;
+bindings = <&kp RA(F5)>;
+};
+macro_prev_change: macro_prev_change{
+compatible = "zmk,behavior-macro";
+label = "macro_prev_change";
+#binding-cells = <0>;
+bindings = <&kp RS(RA(F5))>;
+};
+macro_copy_line: macro_copy_line{
+compatible = "zmk,behavior-macro";
+label = "macro_copy_line";
+#binding-cells = <0>;
+bindings = <&kp LG(LEFT)>, <&kp LS(LG(RIGHT))>, <&kp LG(C)>, <&kp RIGHT>;
+};
+macro_super_console_log: macro_super_console_log{
+compatible = "zmk,behavior-macro";
+label = "macro_super_console_log";
+#binding-cells = <0>;
+bindings = <&kp LA(LC(L))>;
+};
+macro_vs_duplicate_line: macro_vs_duplicate_line{
+compatible = "zmk,behavior-macro";
+label = "macro_vs_duplicate_line";
+#binding-cells = <0>;
+bindings = <&kp LS(LA(DOWN))>;
+};
+macro_vs_delete_line: macro_vs_delete_line{
+compatible = "zmk,behavior-macro";
+label = "macro_vs_delete_line";
+#binding-cells = <0>;
+bindings = <&kp LS(LG(K))>;
+};
+macro_kinesis: macro_kinesis{
+compatible = "zmk,behavior-macro";
+label = "macro_kinesis";
+#binding-cells = <0>;
+bindings = <&kp LS(J)>, <&kp E>, <&kp S>, <&kp U>, <&kp S>;
+};
+macro_const: macro_const{
+compatible = "zmk,behavior-macro";
+label = "macro_const";
+#binding-cells = <0>;
+bindings = <&kp C>, <&kp O>, <&kp N>, <&kp S>, <&kp T>, <&kp SPACE>;
+};
+macro_uni_duplicate_line: macro_uni_duplicate_line{
+compatible = "zmk,behavior-macro";
+label = "macro_uni_duplicate_line";
+#binding-cells = <0>;
+bindings = <&kp LG(LEFT)>, <&kp LS(LG(RIGHT))>, <&kp LG(C)>, <&kp LG(RIGHT)>, <&kp ENTER>, <&kp LG(V)>;
+};
+macro_uni_delete_whole_line: macro_uni_delete_whole_line{
+compatible = "zmk,behavior-macro";
+label = "macro_uni_delete_whole_line";
+#binding-cells = <0>;
+bindings = <&kp LG(LEFT)>, <&kp LS(LG(RIGHT))>, <&kp DEL>;
+};
+macro_copy_word: macro_copy_word{
+compatible = "zmk,behavior-macro";
+label = "macro_copy_word";
+#binding-cells = <0>;
+bindings = <&kp LA(LEFT)>, <&kp LS(LA(RIGHT))>, <&kp LG(C)>;
+};
+macro_comment_out: macro_comment_out{
+compatible = "zmk,behavior-macro";
+label = "macro_comment_out";
+#binding-cells = <0>;
+bindings = <&kp LG(SLASH)>;
+};
+macro_copy: macro_copy{
+compatible = "zmk,behavior-macro";
+label = "macro_copy";
+#binding-cells = <0>;
+bindings = <&kp LG(C)>;
+};
+macro_paste: macro_paste{
+compatible = "zmk,behavior-macro";
+label = "macro_paste";
+#binding-cells = <0>;
+bindings = <&kp LG(V)>;
+};
+macro_delete_all_back: macro_delete_all_back{
+compatible = "zmk,behavior-macro";
+label = "macro_delete_all_back";
+#binding-cells = <0>;
+bindings = <&kp LS(LG(LEFT))>, <&kp DEL>;
+};
+macro_kinesiss: macro_kinesiss{
+compatible = "zmk,behavior-macro";
+label = "macro_kinesiss";
+#binding-cells = <0>;
+bindings = <&kp LS(B)>, <&kp NUMBER_3>, <&kp L>, <&kp NUMBER_3>, <&kp E>, <&kp NUMBER_3>, <&kp S>, <&kp LS(H);
+};
