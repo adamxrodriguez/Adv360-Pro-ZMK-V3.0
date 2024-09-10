@@ -26,7 +26,7 @@ macro_force_quit: macro_force_quit{
 compatible = "zmk,behavior-macro";
 label = "macro_force_quit";
 #binding-cells = <0>;
-bindings = <&kp LG(LS(ESC))>;
+bindings = <&kp LG(LALT(ESC))>;
 };
 macro_new_window: macro_new_window{
 compatible = "zmk,behavior-macro";
