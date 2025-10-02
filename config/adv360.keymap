@@ -57,11 +57,11 @@
         default_layer {
             display-name = "Base";
             bindings = <
-&kp EQUAL  &kp N1        &kp N2    &kp N3    &kp N4     &kp N5  &tog 1                                                     &mo 2      &kp N6  &kp N7  &kp N8     &kp N9    &kp N0    &kp MINUS
-&kp TAB    &kp Q         &kp W     &kp F     &kp P      &kp B   &kp TAB                                                    &none      &kp J   &kp L   &kp U      &kp Y     &kp P     &kp BSLH
-&kp ESC    &hm LGUI A    &kp R     &kp S     &kp T      &kp G   &kp GRAVE  &kp LGUI   &kp LCTRL      &kp RALT   &kp RGUI   &none      &kp M   &kp N   &kp E      &kp L     &kp SEMI  &kp SQT
-&kp LSHFT  &kp X         &kp C     &kp D     &kp V      &kp B                         &kp LG(C)      &kp LG(X)                        &kp K   &kp H   &kp COMMA  &kp DOT   &kp FSLH  &kp RSHFT
-&mo 1      &kp CAPSLOCK  &kp LALT  &kp LEFT  &kp RIGHT          &kp BSPC   &lt 1 RET  &kp LG(V)      &kp PG_DN  &lt 1 RET  &kp SPACE          &kp UP  &kp DOWN   &kp LBKT  &kp RBKT  &mo 1
+&kp EQUAL  &kp N1        &kp N2    &kp N3    &kp N4     &kp N5  &tog 1                                                     &mo 2      &kp N6  &kp N7  &kp N8     &kp N9    &kp N0         &kp MINUS
+&kp TAB    &kp Q         &kp W     &kp F     &kp P      &kp B   &kp TAB                                                    &none      &kp J   &kp L   &kp U      &kp Y     &kp SEMICOLON  &kp BSLH
+&kp ESC    &hm LGUI A    &kp R     &kp S     &kp T      &kp G   &kp GRAVE  &kp LGUI   &kp LCTRL      &kp RALT   &kp RGUI   &none      &kp M   &kp N   &kp E      &kp I     &kp O          &kp SQT
+&kp LSHFT  &kp X         &kp C     &kp D     &kp V      &kp Z                         &kp LG(C)      &kp LG(X)                        &kp K   &kp H   &kp COMMA  &kp DOT   &kp FSLH       &kp RSHFT
+&mo 1      &kp CAPSLOCK  &kp LALT  &kp LEFT  &kp RIGHT          &kp BSPC   &lt 1 RET  &kp LG(V)      &kp RG(Z)  &lt 1 RET  &kp SPACE          &kp UP  &kp DOWN   &kp LBKT  &kp RBKT       &mo 1
             >;
         };
 
