@@ -55,7 +55,7 @@
         default_layer {
             display-name = "Base";
             bindings = <
-&kp EQUAL  &kp N1        &kp N2    &kp N3    &kp N4     &kp N5  &tog 1                                                     &mo 0      &kp N6  &kp N7  &kp N8     &kp N9    &kp N0         &kp MINUS
+&kp EQUAL  &kp N1        &kp N2    &kp N3    &kp N4     &kp N5  &tog 2                                                     &mo 1      &kp N6  &kp N7  &kp N8     &kp N9    &kp N0         &kp MINUS
 &kp TAB    &kp Q         &kp W     &kp F     &kp P      &kp B   &kp TAB                                                    &none      &kp J   &kp L   &kp U      &kp Y     &kp SEMICOLON  &kp BSLH
 &kp ESC    &hm LGUI A    &kp R     &kp S     &kp T      &kp G   &kp GRAVE  &kp LGUI   &kp LCTRL      &kp RALT   &kp RGUI   &none      &kp M   &kp N   &kp E      &kp I     &kp O          &kp SQT
 &kp LSHFT  &kp X         &kp C     &kp D     &kp V      &kp Z                         &kp LG(C)      &kp LG(X)                        &kp K   &kp H   &kp COMMA  &kp DOT   &kp FSLH       &kp RSHFT
@@ -71,6 +71,28 @@
 &deleteLine             &none         &kp NUMBER_0    &kp NUMBER_4  &kp NUMBER_5  &kp NUMBER_6  &studio_unlock  &kp LCTRL  &kp LALT      &kp LGUI    &kp RCTRL      &none        &none           &kp RS(RG(N))         &none                 &kp RG(RA(I))           &none                    &kp SQT
 &kp LSHFT               &none         &none           &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3                             &kp HOME      &bt BT_CLR                              &kp LG(C_MUTE)  &kp C_BRIGHTNESS_DEC  &kp C_BRIGHTNESS_INC  &none                   &kp RA(RG(F5))           &kp RA(F5)
 &none                   &kp UP_ARROW  &kp DOWN_ARROW  &bt BT_PRV    &bt BT_NXT                  &kp DELETE      &kp SPACE  &kp END       &kp PG_DN   &kp BACKSPACE  &kp SPACE                    &kp C_VOLUME_DOWN     &kp C_VOLUME_UP       &kp RG(RA(LEFT_ARROW))  &kp RG(RA(RIGHT_ARROW))  &none
+            >;
+        };
+
+        windows {
+            display-name = "Win";
+            bindings = <
+&kp EQUAL  &kp N1        &kp N2    &kp N3    &kp N4     &kp N5  &tog 0                                                     &mo 3      &kp N6  &kp N7  &kp N8     &kp N9    &kp N0         &kp MINUS
+&kp TAB    &kp Q         &kp W     &kp F     &kp P      &kp B   &kp TAB                                                    &none      &kp J   &kp L   &kp U      &kp Y     &kp SEMICOLON  &kp BSLH
+&kp ESC    &hm LGUI A    &kp R     &kp S     &kp T      &kp G   &kp GRAVE  &kp LCTRL   &kp LGUI      &kp RALT   &kp RGUI   &none      &kp M   &kp N   &kp E      &kp I     &kp O          &kp SQT
+&kp LSHFT  &kp X         &kp C     &kp D     &kp V      &kp Z                         &kp LC(C)      &kp RC(A)                        &kp K   &kp H   &kp COMMA  &kp DOT   &kp FSLH       &kp RSHFT
+&mo 3      &kp CAPSLOCK  &kp LALT  &kp LEFT  &kp RIGHT          &kp BSPC   &lt 1 RET  &kp LC(V)      &kp RC(Z)  &lt 1 RET  &kp SPACE          &kp UP  &kp DOWN   &kp LBKT  &kp RBKT       &mo 3
+            >;
+        };
+
+        Winkeypad {
+            display-name = "WinKp";
+            bindings = <
+&kp LS(LA(DOWN_ARROW))  &bt BT_SEL 0  &bt BT_SEL 1    &bt BT_SEL 2  &bt BT_SEL 3  &bt BT_CLR    &to 0                                                               &mo 0        &none           &kp KP_NUM            &kp KP_EQUAL          &kp KP_DIVIDE           &Jesus                   &adamxr
+&kp TAB                 &none         &kp LG(LA(T))   &kp NUMBER_7  &kp NUMBER_8  &kp NUMBER_9  &bootloader                                                         &bootloader  &none           &none                 &none                 &none                   &none                    &none
+&deleteLine             &none         &kp NUMBER_0    &kp NUMBER_4  &kp NUMBER_5  &kp NUMBER_6  &studio_unlock  &kp LCTRL  &kp LALT      &kp LGUI    &kp RCTRL      &none        &none           &kp RS(RG(N))         &none                 &kp RG(RA(I))           &none                    &kp SQT
+&kp LSHFT               &none         &none           &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3                             &kp HOME      &bt BT_CLR                              &kp LG(C_MUTE)  &kp C_BRIGHTNESS_DEC  &kp C_BRIGHTNESS_INC  &none                   &kp RA(RG(F5))           &kp RA(F5)
+&none                   &kp UP_ARROW  &kp DOWN_ARROW  &bt BT_PRV    &bt BT_NXT                  &kp DELETE      &kp SPACE  &kp END       &kp PG_DN   &kp BACKSPACE  &kp SPACE                    &kp C_VOLUME_DOWN     &kp C_VOLUME_UP       &kp LS(LA(TAB))  &kp LA(TAB)  &none
             >;
         };
     };
